@@ -1,0 +1,17 @@
+.button{
+    -fx-background-color: yellow;
+    /*-fx-background-image: url("/image/1.png");*/
+}
+
+.button:hover{
+    -fx-background-color: #ff8e09;
+    -fx-font-size: 16;
+}
+
+#btnAdd{
+    -fx-background-color: #92ff1a;
+}
+
+#btnAdd:hover{
+    -fx-background-color: #19d000;
+}
