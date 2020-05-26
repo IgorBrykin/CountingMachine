@@ -8,10 +8,4 @@
     -fx-font-size: 16;
 }
 
-#btnAdd{
-    -fx-background-color: #92ff1a;
-}
 
-#btnAdd:hover{
-    -fx-background-color: #19d000;
-}
