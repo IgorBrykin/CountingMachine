@@ -3,7 +3,7 @@ package sample;
 
 public class Model {
     public long calculation(long a, long b, String operator) {
-       switch (operator){
+        switch (operator){
            case "+":
                return a + b;
            case "-":
@@ -13,7 +13,6 @@ public class Model {
                return a / b;
            case "*":
                return a * b;
-
        }
        System.out.println("Не известный оператор" + operator);
        return 0;
