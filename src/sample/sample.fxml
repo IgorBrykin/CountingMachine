@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ceda20" height="100.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Text fx:id="output" />
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="210.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="7" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="8" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="9" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="/" textFill="#cd3030" />
+         </children></HBox>
+
+
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="4" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="5" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="6" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="*" textFill="#cd3030" />
+         </children></HBox>
+
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="1" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="2" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="50.0" text="3" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="+" textFill="#cd3030" />
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#processNum" prefHeight="50.0" prefWidth="98.0" text="0" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="=" textFill="#cd3030" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="50.0" prefWidth="50.0" text="-" textFill="#cd3030" />
+         </children></HBox>
+   </children>
+</VBox>
