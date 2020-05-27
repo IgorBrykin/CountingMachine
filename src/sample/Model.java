@@ -15,7 +15,7 @@ public class Model {
            case "*":
                return a * b;
        }
-       System.out.println("Не известный оператор" + operator);
+
        return 0;
     }
 }
