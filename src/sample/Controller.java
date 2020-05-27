@@ -31,10 +31,10 @@ public class Controller {
         String value = ((Button)event.getSource()).getText();
         if (!"=".equals(value)){
             if (!operator.isEmpty()) return;
+            operator = value;
             num1 = Long.parseLong(output.getText());
             output.setText("");
-        }
-        else {
+        } else {
             if(operator.isEmpty()) return;
             output.setText(String.valueOf(model.calculation(num1,Long.parseLong(output.getText()),operator)));
             operator = "";
